@@ -84,7 +84,7 @@ ScrollTrigger.create({
 });
 
 gsap.to("#page1",{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:`#pagel`,
         start:`top top`,
         end:`bottomm top`,
@@ -94,7 +94,7 @@ gsap.to("#page1",{
     }
 })
 gsap.to("#page2",{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:`#page2`,
         start:`top top`,
         end:`bottomm top`,
@@ -104,7 +104,7 @@ gsap.to("#page2",{
     }
 })
 gsap.to("#page3",{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:`#page3`,
         start:`top top`,
         end:`bottomm top`,
